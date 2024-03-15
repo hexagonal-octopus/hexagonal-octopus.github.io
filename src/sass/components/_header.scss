@@ -1,0 +1,30 @@
+@use '../abstracts/typography';
+@use '../abstracts/colors';
+
+.header{
+   padding-top: 60px;
+
+   .title{
+      font-weight: 600;
+      margin:0;
+      font-size: 42px;
+      margin-top: 24px;
+      margin-bottom: 8px;
+   }
+
+   .caption{
+      margin:0;
+      font-weight: 500;
+      margin-bottom: 32px;
+      font-size: typography.$fontsize_default;
+
+      span{color: colors.$color_brand1}
+   }
+
+   .description{
+      margin:0;
+      line-height:1.5;
+      font-size: typography.$fontsize_default;
+      margin-bottom: 48px;
+   }
+}
